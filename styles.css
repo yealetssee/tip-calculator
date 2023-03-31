@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  /* 10px   */
+  font-size: 62.5%;
+}
+
+body {
+  width: 100vw;
+  height: 102.4rem;
+  overflow-x: hidden;
+  background-color: #c5e4e7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Space Mono", sans-serif;
+  font-weight: 700;
+  row-gap: 8.786rem;
+}
+
+.splitter-img > img {
+  width: 8.666rem;
+  margin-top: 16.3rem;
+}
+
+.main-calc {
+  width: 92rem;
+  height: 48.1rem;
+  background-color: #ffffff;
+  border-radius: 2.5rem;
+  box-shadow: 0rem 3.2rem 4.3rem rgba(79, 166, 175, 0.200735);
+  display: flex;
+  justify-content: space-around;
+}
+
+.left-sub-parent {
+  width: 37.9rem;
+  height: 100%;
+  background-color: inherit;
+  margin: 0 4.8rem 4.8rem 4.8rem;
+  display: flex;
+  flex-direction: column;
+  padding-top: 4.5rem;
+}
+
+.left-sub-parent .twinput {
+  width: 100%;
+  height: 4.8rem;
+  border-radius: 0.5rem;
+  background-color: #f3f9fa;
+  border: transparent;
+  outline: none;
+  text-align: right;
+  color: #00474b;
+
+  font-weight: bolder;
+  font-family: inherit;
+  font-size: 2.4rem;
+  background-position: 1.7rem 1.5rem;
+  background-image: url(./images/icon-dollar.svg);
+  background-repeat: no-repeat;
+  background-position: 1.6rem;
+  padding: 0.6rem;
+  padding-right: 1.8rem;
+  caret-color: #26c2ae;
+}
+
+input::placeholder {
+  color: #9ebbbd;
+}
+
+input:hover,
+.twinput:hover {
+  border: 0.2rem solid #26c2ae;
+  cursor: pointer;
+}
+.twinput:last-child {
+  background-image: url(./images/icon-person.svg);
+}
+
+.input-parent {
+  padding-top: 4rem;
+}
+
+.left-sub-parent .tip-select {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 1.6rem;
+  column-gap: 1.4rem;
+  margin-top: 1.6rem;
+}
+
+.tip-select div {
+  width: 11.7rem;
+  height: 4.8rem;
+  border-radius: 0.5rem;
+  background-color: #00474b;
+  font-size: 2.4rem;
+  line-height: 3.554rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+  color: #ffffff;
+}
+.tip-select div:hover {
+  background-color: #9fe8df;
+  color: #00474b;
+  cursor: pointer;
+}
+
+.custom {
+  width: 11.7rem;
+  height: 4.8rem;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  background-color: #f3f9fa;
+  font-size: 2.4rem;
+  line-height: 3.554rem;
+  text-align: right;
+  color: #00474b;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.6rem;
+  caret-color: #26c2ae;
+}
+.custom::placeholder {
+  color: #547878;
+}
+
+label {
+  /* width: 16px; */
+  display: block;
+  font-size: 1.6rem;
+  color: #5e7a7d;
+  line-height: 2.37rem;
+  margin-bottom: 0.6rem;
+}
+
+.right-sub-parent {
+  background-color: #00474b;
+  width: 41.3rem;
+  height: 41.7rem;
+  border-radius: 1.5rem;
+  margin: 3.2rem 3.2rem 3.2rem 0rem;
+  padding: 5.6rem 4rem 4rem 4rem;
+}
+
+.check {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.check:first-child {
+  margin-bottom: 2.5rem;
+}
+
+.check .tip {
+  font-size: 1.6rem;
+  color: #ffffff;
+}
+.tip p {
+  font-size: 1.3rem;
+  color: #7f9d9f;
+}
+
+.check .big-number {
+  font-size: 4.8rem;
+  color: #26c2ae;
+  letter-spacing: -1;
+  line-height: 7.1rem;
+}
+
+.right-sub-parent button {
+  width: 33.3rem;
+  height: 4.8rem;
+  background-color: #0d686d;
+  border-radius: 0.5rem;
+  border: transparent;
+  outline: none;
+  font-family: inherit;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #00474b;
+  text-align: center;
+  line-height: 3rem;
+  padding: 0.9rem 3.8rem;
+  margin-top: 10.2rem;
+}
+
+.right-sub-parent button:hover {
+  background-color: #9fe8df;
+  cursor: pointer;
+}
