@@ -95,7 +95,7 @@ input:hover,
   margin-top: 1.6rem;
 }
 
-.tip-select div {
+.tip-div {
   width: 11.7rem;
   height: 4.8rem;
   border-radius: 0.5rem;
@@ -109,6 +109,7 @@ input:hover,
   text-align: center;
   color: #ffffff;
 }
+
 .tip-select div:hover {
   background-color: #9fe8df;
   color: #00474b;
@@ -135,6 +136,10 @@ input:hover,
 }
 .custom::placeholder {
   color: #547878;
+}
+
+.custom:focus {
+  border: 0.2rem solid #26c2ae;
 }
 
 label {
@@ -200,4 +205,17 @@ label {
 .right-sub-parent button:hover {
   background-color: #9fe8df;
   cursor: pointer;
+}
+
+.active {
+  background-color: #26c2ae;
+  color: #00474b;
+}
+
+.active-custom {
+  border-color: #26c2ae;
+}
+
+.invalid {
+  border: 1px solid red;
 }
